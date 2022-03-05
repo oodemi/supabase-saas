@@ -6,13 +6,22 @@
     "start": "next start"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.24.0",
+    "@supabase/supabase-js": "^1.30.7",
+    "@types/cookie": "^0.4.1",
+    "axios": "^0.26.0",
+    "cookie": "^0.4.2",
+    "micro": "^9.3.4",
     "next": "latest",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-player": "^2.9.0",
+    "stripe": "^8.205.0"
   },
   "devDependencies": {
     "@types/node": "17.0.4",
     "@types/react": "17.0.38",
+    "@types/stripe": "^8.0.417",
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.5",
     "prettier": "^2.5.1",
